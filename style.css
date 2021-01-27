@@ -1,0 +1,44 @@
+
+h1::first-letter{ /* primeira letra */
+    font-size: 3rem;
+    color: blueviolet;
+}
+
+p::first-line{ /* primeira linha */
+    color: red;
+}
+
+p::first-letter{ /* primeira letra */
+    font-size: 2rem;
+    color: chartreuse;
+}
+
+p::selection{
+    background-color: pink;
+    color: green;
+}
+
+li{
+    list-style: none;
+}
+
+li::before{ /* tem o after também , que vem depois*/
+
+    content: "A :  ";
+    color: cornflowerblue;
+    font-size: 2rem;
+
+    /*Para usar imagem é so usar o código abaixo*/
+
+    /*
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    */
+}
+
